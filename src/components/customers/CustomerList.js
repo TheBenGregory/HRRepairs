@@ -9,7 +9,7 @@ export const Customers = () => {
                 .then(res => res.json())
                 .then((customerArray) => {
                     assignCustomers(customerArray)
-                },
+                }
             
                 )
         },
