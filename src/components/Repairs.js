@@ -1,6 +1,7 @@
 // import React, { useEffect, useState } from "react"
 import { Customers } from "./customers/CustomerList.js"
-import { Employees } from "./employees/EmployeeList.js"
+import { EmployeeList } from "./employees/EmployeeList.js"
+import { TicketList } from "./TicketList.js"
 
 export const Repairs = () => {
     return (
@@ -8,7 +9,8 @@ export const Repairs = () => {
             {console.log("JSX rendered")}
             <h1>Honey Rae's Repair Shop</h1>
             <Customers />
-            <Employees />
+            <EmployeeList />
+            <TicketList />
         </>
     )
 }
