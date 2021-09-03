@@ -1,5 +1,11 @@
 import React, { useEffect, useState } from "react"
 
+{/* <div>
+    const history = useHistory()
+    <button onClick={() => history.push("/ticket/create")}>Create Ticket</button>
+</div> */}
+
+
 export const TicketList = () => {
     const [tickets, updateTickets] = useState([])
 
