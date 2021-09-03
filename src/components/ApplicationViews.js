@@ -3,6 +3,7 @@ import { Route } from "react-router-dom"
 import { Customers } from "./customers/CustomerList.js";
 import { EmployeeList } from "./employees/EmployeeList.js";
 import { TicketList } from "./TicketList.js";
+import { TicketForm } from "./TicketForm.js"
 
 export const ApplicationViews = () => {
     return (
@@ -15,9 +16,11 @@ export const ApplicationViews = () => {
             </Route>
             <Route path="/serviceTickets">
                 <TicketList />
-                
             </Route>
-           
+            <Route path="/ticket/create">
+                <TicketForm />
+            </Route>
         </>
     )
 }
+
